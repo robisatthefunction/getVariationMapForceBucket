@@ -1,3 +1,4 @@
+// Put this in Project JavaScript
 
 function onActivated(event) {
   var exp = window.optimizely.get('state').getVariationMap()[/* String of experimentId of previous experiment goes here */];
